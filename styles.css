@@ -10,30 +10,3 @@ body {
 h1 {
   color: #b8a2ff;
 }
-
-#keyboard,
-#mouse {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-  margin: 25px auto;
-}
-
-.key {
-  background: #292938;
-  border: 2px solid #7770a8;
-  border-radius: 10px;
-  min-width: 60px;
-  padding: 18px 12px;
-  font-weight: bold;
-  box-shadow: 0 4px 0 #15151f;
-  transition: background 0.1s, transform 0.1s;
-}
-
-.key.active {
-  background: #a78bfa;
-  color: #101018;
-  transform: translateY(3px);
-  box-shadow: 0 1px 0 #15151f;
-}
