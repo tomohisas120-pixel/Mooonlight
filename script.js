@@ -34,25 +34,3 @@ document.addEventListener("keyup", (event) => {
     target.classList.remove("active");
   }
 });
-
-document.addEventListener("mousedown", (event) => {
-  if (event.button === 0) {
-    document.getElementById("mouse-left").classList.add("active");
-  }
-  if (event.button === 2) {
-    document.getElementById("mouse-right").classList.add("active");
-  }
-});
-
-document.addEventListener("mouseup", (event) => {
-  if (event.button === 0) {
-    document.getElementById("mouse-left").classList.remove("active");
-  }
-  if (event.button === 2) {
-    document.getElementById("mouse-right").classList.remove("active");
-  }
-});
-
-document.addEventListener("contextmenu", (event) => {
-  event.preventDefault();
-});
