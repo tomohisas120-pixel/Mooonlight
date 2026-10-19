@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 620" fill="none">
+<defs>
+  <radialGradient id="bg"><stop stop-color="#28366a"/><stop offset="1" stop-color="#10172d" stop-opacity="0"/></radialGradient>
+  <linearGradient id="moon" x1="210" y1="120" x2="420" y2="390"><stop stop-color="#E4F5FF"/><stop offset="1" stop-color="#8E9CFF"/></linearGradient>
+  <linearGradient id="planet" x1="180" y1="370" x2="480" y2="560"><stop stop-color="#8FF1DD"/><stop offset="1" stop-color="#5968C8"/></linearGradient>
+</defs>
+<circle cx="310" cy="310" r="300" fill="url(#bg)"/>
+<g fill="#D9E3FF" opacity=".8">
+<circle cx="130" cy="135" r="2"/><circle cx="470" cy="120" r="3"/><circle cx="520" cy="265" r="2"/><circle cx="108" cy="345" r="3"/><circle cx="430" cy="470" r="2"/><circle cx="245" cy="70" r="2"/><circle cx="370" cy="88" r="1.5"/><circle cx="150" cy="480" r="2"/><circle cx="510" cy="390" r="1.5"/>
+</g>
+<ellipse cx="310" cy="320" rx="245" ry="92" stroke="#91A0FF" stroke-opacity=".4" transform="rotate(-24 310 320)"/>
+<ellipse cx="310" cy="320" rx="215" ry="65" stroke="#9EF3DF" stroke-opacity=".3" transform="rotate(32 310 320)"/>
+<circle cx="320" cy="245" r="130" fill="url(#moon)"/>
+<circle cx="365" cy="205" r="130" fill="#151E38"/>
+<circle cx="220" cy="390" r="92" fill="url(#planet)" fill-opacity=".9"/>
+<path d="M150 397c48-34 91-34 139 0" stroke="#D4FFF4" stroke-opacity=".55" stroke-width="2"/>
+<path d="M182 430c29-19 58-19 86 0" stroke="#D4FFF4" stroke-opacity=".35" stroke-width="2"/>
+<path d="M410 355l8 18 18 8-18 8-8 18-8-18-18-8 18-8 8-18Z" fill="#9EF3DF"/>
+<path d="M445 145l5 11 11 5-11 5-5 11-5-11-11-5 11-5 5-11Z" fill="#DCE5FF"/>
+<circle cx="455" cy="420" r="5" fill="#9EF3DF"/>
+</svg>
